@@ -9,6 +9,21 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+.title {
+  line-height: 1.15;
+  font-size: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /*----------HEADER----------*/
 
 .header {
@@ -113,21 +128,6 @@
 
 /*----------DIGITS----------*/
 
-.title {
-  line-height: 1.15;
-  font-size: 60px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .digits {
   padding: 100px 0;
 }
@@ -164,6 +164,38 @@
 }
 
 /*----------FEYNMAN----------*/
+
+.feynman {
+  padding-top: 100px;
+  height: 790px;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 867px 637px;
+  position: relative;
+}
+.feynman__title {
+  width: 648px;
+  margin-bottom: 70px;
+  font-size: 120px;
+}
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+}
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.feynman__link:hover {
+  text-decoration: underline;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
