@@ -9,6 +9,8 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+/*----------HEADER----------*/
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -54,6 +56,10 @@
   color: #2f80ed;
 }
 
+.header__link:hover {
+  text-decoration: underline;
+}
+
 .header__main-illustration {
   position: absolute;
   right: 0;
@@ -73,6 +79,39 @@
   width: 568px;
   background-color: #2f80ed;
 }
+
+/*----------DESCRIPTION----------*/
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.two-columns__brief {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+}
+.two-columns__paragraph:not(:last-child) {
+  margin-bottom: 30px;
+}
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+/*----------DIGITS----------*/
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
