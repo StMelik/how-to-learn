@@ -173,6 +173,7 @@
   background-position: left bottom;
   background-size: 867px 637px;
   position: relative;
+  background-color: #f2f2f2;
 }
 .feynman__title {
   width: 648px;
@@ -196,6 +197,8 @@
 .feynman__link:hover {
   text-decoration: underline;
 }
+
+/*----------KAUFMAN----------*/
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
