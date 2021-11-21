@@ -200,10 +200,35 @@
 
 /*----------KAUFMAN----------*/
 
-/* и элемента с модификатором вида ключ-значение */
+.kaufman {
+  padding: 90px 0;
+  background-color: #000;
+  position: relative;
+  z-index: -2;
+  overflow: hidden;
+}
+.section-title_theme_dark {
+  color: white;
+  margin-bottom: 20px;
+}
+.section-subtitle_theme_dark {
+  color: white;
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
+}
+.table__heading_theme_dark {
   margin-top: 80px;
 }
+.kaufman__triangle {
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  right: -210px;
+  width: 877px;
+  height: 877px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
