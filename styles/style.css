@@ -8,18 +8,6 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-.title {
-  font-size: 60px;
-  margin: 0 auto;
-  text-align: center;
-}
-.subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0 auto;
-  text-align: center;
-}
 
 /*----------HEADER----------*/
 
@@ -36,7 +24,7 @@
   top: 30px;
   left: 64px;
   z-index: 999;
-  width: 133px;
+  width: 183px;
   height: 32px;
 }
 .header__title {
@@ -287,21 +275,21 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
+  margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
 }
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
-  margin-bottom: 10px;
   color: white;
   text-decoration: none;
 }
 .footer__column-link:hover {
   text-decoration: underline;
 }
-.footer__column-link:last-of-type {
-  margin-bottom: 16px;
-}
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
