@@ -35,6 +35,11 @@
 @import url(blocks/cards/__description/cards__description.css);
 
 /*----------VIDEO----------*/
+
+@import url(blocks/video/video.css);
+@import url(blocks/video/__iframes/video__iframes.css);
+@import url(blocks/video/__iframe/video__iframe.css);
+
 /*----------OAKLEY----------*/
 
 /*----------FEYNMAN----------*/
