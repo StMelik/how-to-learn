@@ -7,6 +7,5 @@
 }
 
 .footer__column-link:hover {
-  text-decoration: underline;
-  opacity: 0.7;
+  opacity: 0.5;
 }
