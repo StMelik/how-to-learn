@@ -85,6 +85,10 @@
 
 /*----------RESOURCES----------*/
 
+@import url(blocks/resources/resources.css);
+@import url(blocks/resources/__logo-zone/recources__logo-zone.css);
+@import url(blocks/resources/__logo/resources__logo.css);
+
 /*----------FOOTER----------*/
 
 @import url(blocks/footer/footer.css);
